@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  margin: 0;
+  font-family: Poppins;
+  background: #1d1e22;
+  color: #ffffff;
+}
+
+.guage {
+  display: grid;
+  place-items: center;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  cursor: default;
+}
+
+.guage.teal {
+  color: #48c6d8;
+  background: conic-gradient(#48c6d8 0% 20%, #303238 20% 100%);
+}
+
+.guage.pink {
+  color: #d051eb;
+  background: conic-gradient(#d051eb 0% 34%, #303238 34% 100%);
+}
+
+.guage.white {
+  color: #ffffff;
+  background: conic-gradient(#ffffff 0% 18%, #303238 18% 100%);
+}
+
+.guage-inner {
+  display: grid;
+  place-items: center;
+  width: 35px;
+  height: 46px;
+  border-radius: 50%;
+  background: #1d1e22;
+}
