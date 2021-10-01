@@ -45,8 +45,8 @@ body {
 .guage-inner {
   display: grid;
   place-items: center;
-  width: 35px;
-  height: 46px;
+  width: 56px;
+  height: 56px;
   border-radius: 50%;
   background: #1d1e22;
 }
